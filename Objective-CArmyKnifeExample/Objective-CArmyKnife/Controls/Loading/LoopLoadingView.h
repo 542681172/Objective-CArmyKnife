@@ -26,8 +26,10 @@
  */
 - (void)setLogoImage:(UIImage *)image;
 
+#pragma mark 开始加载旋转
 - (void)startAnimating;
 
+#pragma mark 停止加载旋转
 - (void)stopAnimating;
 
 @end
